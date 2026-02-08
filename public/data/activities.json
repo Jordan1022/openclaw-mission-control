@@ -1,0 +1,10 @@
+[
+  {
+    "id": "agents-md",
+    "timestamp": "2026-02-08T05:27:54.139Z",
+    "type": "system",
+    "title": "Agent Configuration",
+    "summary": "Agent workspace guidelines and conventions",
+    "source": "AGENTS.md"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "No",
+    "schedule": "cron",
+    "command": "jobs.",
+    "enabled": true
+  }
+]
