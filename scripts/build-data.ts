@@ -77,7 +77,7 @@ async function buildActivityFeed(): Promise<ActivityItem[]> {
       });
 
       // Look for session entries in the content
-      const sessionMatches = content.match(/\[.*?\].*?(?=\[|$)/gs);
+      const sessionMatches = content.match(/\[.*?\].*?\n/g);
       if (sessionMatches) {
         sessionMatches.slice(0, 3).forEach((match, idx) => {
           const cleanMatch = match.trim();
